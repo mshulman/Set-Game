@@ -1,3 +1,5 @@
 
 .DS_Store
 Set Game/.DS_Store
+*.xcuserstate
+*.xcbkptlist
