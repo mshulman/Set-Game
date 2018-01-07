@@ -122,7 +122,6 @@ class SetViewController: UIViewController {
     }
     
     func startGame() {
-        // deal 12 cards
         dealSomeCards()
     }
     
