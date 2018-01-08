@@ -26,6 +26,7 @@ class SetViewController: UIViewController {
     @IBAction func newGame(_ sender: UIButton) {
         game = SetGame()
         gameBoard.removeAll()
+        tableau.cardViews.removeAll()
         startGame()
         updateUI()
     }
@@ -124,8 +125,6 @@ class SetViewController: UIViewController {
     func startGame() {
         dealSomeCards()
     }
-    
-
     
     func setBorderColor(button: UIView, color: UIColor) {
         button.layer.borderColor = color.cgColor

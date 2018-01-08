@@ -12,7 +12,7 @@ import UIKit
 @IBDesignable
 class Tableau: UIView {
     
-    var grid = Grid(layout: Grid.Layout.aspectRatio(5/8))
+    private var grid = Grid(layout: Grid.Layout.aspectRatio(2.5/3.5))
     var cardViews = [CardView]() { didSet { layoutSubviews() }}
 
     override func awakeFromNib() {
